@@ -1,8 +1,13 @@
-.navbar-inverse {
-    /*background-color: #fff;*/
-    border-color: #fff;
+.bg-faded {
     background: rgba(255, 255, 255, 0.9);
 }
+.btn-secondary {
+  color: #0275d8;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  border: 2px solid #0275d8;
+}   
+
 
 *, *:after, *:before {
     -webkit-box-sizing: border-box;
