@@ -15,12 +15,47 @@ body, p, ul {
 .bg-faded {
     background: rgba(255, 255, 255, 0.9);
 }
-.btn-secondary {
-  color: $color-primary-dark;
+
+.navbar {
+  height: 100px;
+}
+
+.primary-cta {
+  height: 100px;
+  margin: 30px 0;
+}
+
+.primary-cta button {
+  margin: 0 0 0 10px;
+}
+
+#primary-logo {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100px;
+  background-color: transparent;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-image: url(../images/volunteer-planner-logo.png);
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.primary-login {
+  color: $color-primary-light;
   background: rgba(255, 255, 255, 0);
   border-radius: 3px;
-  border: 2px solid $color-primary-dark;
+  border: 2px solid $color-primary-light;
 }   
+.primary-register {
+  background-color: $color-primary-light;
+  color: #fff;
+  border-radius: 3px;
+  border: 2px solid $color-primary-light;
+}
 
 
 *, *:after, *:before {
